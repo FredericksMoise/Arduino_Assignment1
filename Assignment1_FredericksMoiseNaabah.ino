@@ -5,7 +5,7 @@ int startValue = 5;
 void setup() {
   pinMode(ledPin, OUTPUT); //pin 13 is an OUTPUT
   Serial.begin(9600);
-  //TASK 5
+ 
   Serial.println(" ");
   Serial.println("=== Smart CountDown Starting ===");
 
@@ -22,7 +22,7 @@ void setup() {
   Serial.println("=== Countdown Complete ===");
 }
 
-// TASK 5
+
 void flashLED(int times){
   int flashcounter = 0;
   while (flashcounter < times) {
